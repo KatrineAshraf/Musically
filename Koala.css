@@ -1,0 +1,18 @@
+body{ background-color:rgb(24, 121, 56)}
+.container{display:flex;  height:100%;
+    width:100%;
+flex-wrap: nowrap; align-items:center; justify-content:center;}
+.face{z-index: 2; background-color: rgb(182, 179, 207); height:300px;  
+width:300px; border-radius:300px; display: flex; justify-content: center;}
+.pupil{ background-color:black; height:28px; width:26px; flex-wrap: nowrap;;
+border-radius:50px; margin:10px; position: relative; top:30%; }
+#rightp{left:20%} #leftp{left:30%}
+.eyes{background-color:white; height:100px; width:95px;
+border-radius:68px; margin:-1px; position: relative; top:25%; left:12%}
+.nose{background-color: rgb(165, 117, 29);  position: relative; top:45%; right:30%;
+    height:115px; width:70px;   border-radius:40px;}
+.ear{ height:150px; width:150px; border-radius:180px; position: relative; bottom:6%;
+     background-color:rgb(88, 88, 109); z-index:1;
+    border: solid  rgb(182, 179, 207) 20px; margin:-110px; }
+span{font-size:18pt; font-family: "Tangerine"; font-weight:bolder; background-color: rgba(255, 255, 255, 0.658);
+     position: relative; bottom:18%; width:300px;}
